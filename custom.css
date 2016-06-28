@@ -1,0 +1,38 @@
+body {
+  background-color: #B6B6B6;
+}
+
+nav.navbar, footer {
+  background-color: #D32F2F;
+  color: #727272;
+}
+
+#about, #contact {
+  background-color: #F44336;
+}
+
+#about {
+  margin-top: 51px;
+}
+
+#profile {
+  max-width: 300px;
+  border-radius: 50%;
+  margin: 5px auto;
+}
+
+#portfolio {
+  background-color: #FFFFFF;
+}
+
+.portfolio-img {
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 1em 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}

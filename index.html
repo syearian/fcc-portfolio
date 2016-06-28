@@ -5,8 +5,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steven Yearian - Front End Developer</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Tangerine:700" rel="stylesheet">
+    <link href = "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" >
     <link rel="stylesheet" href="custom.css">
   </head>
   <body>
@@ -36,33 +37,80 @@
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
     
     <main class="container">
-      <header>
-        
+      <header id="about" class="row">
+        <div class="col-xs-12">
+          <img class="img-responsive" src="profile.jpg" alt="Steven Yearian">
+          <p>Anim cillum elit cupidatat ea esse est sit culpa mollit minim proident nisi. Qui sint sint voluptate elit ipsum. Sint ullamco amet aliqua do aute occaecat laborum exercitation occaecat eu velit nostrud enim. Sit id proident velit sit ut. Reprehenderit quis ex ad sunt cupidatat dolor velit. Laborum excepteur sit nisi deserunt culpa enim laborum dolore voluptate consectetur ad magna nisi. Pariatur ut Lorem reprehenderit laborum pariatur voluptate ex magna duis.</p>
+        </div>
       </header>
-      <section>
-        
+
+      <section id="portfolio" class="row center-block">
+        <div class="col-xs-12">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="img-responsive" src="http://placehold.it/350" alt="Project 1">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="img-responsive" src="http://placehold.it/350" alt="Project 2">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="img-responsive" src="http://placehold.it/350" alt="Project 3">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="img-responsive" src="http://placehold.it/350" alt="Project 4">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="img-responsive" src="http://placehold.it/350" alt="Project 5">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+          <img class="img-responsive" src="http://placehold.it/350" alt="Project 6">
+        </div>
       </section>
-      <section>
-        
+
+      <section id="contact" class="row">
+        <div class="col-xs-12">
+          <h2>Contact</h2>
+        </div>
+        <div class="col-xs-6">
+          <h3>Email</h3>
+          <p>Sunt voluptate excepteur ullamco culpa quis cupidatat incididunt dolore qui magna.</p>
+        </div>
+        <div class="col-xs-6">
+          <h3>Profiles</h3>
+          <ul class="list-inline">
+            <li>
+              <a class="btn btn-social-icon btn-gutbuh">
+                <span class="fa fa-github"></span>
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-social-icon btn-linkedin">
+                <span class="fa fa-linkedin"></span>
+              </a>
+            </li>
+            <li>
+              <a class="btn btn-social-icon btn-codepen">
+                <i class="fa fa-codepen" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
-    </main>
+    </main> <!-- End Main -->
+
     <footer>
-      
+      <section class="text-center">
+        <p>&copy; 2016 Steven Yearian</p>
+      </section>
     </footer>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

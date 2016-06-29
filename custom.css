@@ -1,17 +1,18 @@
 body {
   background-color: #B6B6B6;
+  color: #212121;
 }
 
-nav.navbar, footer {
-  background-color: #D32F2F;
-  color: #727272;
+#mainNav, footer {
+  background-color: #303F9F;
 }
 
-#about, #contact {
-  background-color: #F44336;
+#mainNav a {
+  color: #FFFFFF;
 }
 
 #about {
+  background-color: #3F51B5;
   margin-top: 51px;
 }
 
@@ -26,7 +27,11 @@ nav.navbar, footer {
 }
 
 .project-img {
-  margin-bottom: 10px;
+  margin: 0 auto 20px;
+}
+
+#contact {
+  padding: 1em;
 }
 
 footer {

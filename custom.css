@@ -16,10 +16,22 @@ body {
   margin-top: 51px;
 }
 
+#about .social {
+  margin: 20px 0;
+}
+
+#about .social-icon {
+  color: #212121;
+}
+
+#about .social-icon:hover {
+  color: #448AFF;
+}
+
 #profile {
   max-width: 300px;
   border-radius: 50%;
-  margin: 5px auto;
+  margin: 10px auto;
 }
 
 #portfolio {

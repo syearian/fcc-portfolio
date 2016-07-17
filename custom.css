@@ -1,5 +1,5 @@
 body {
-  background-color: #B6B6B6;
+  background-color: #9d9d9d;
   color: #212121;
   font-family: Lato, sans-serif;
 }
@@ -8,16 +8,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Oswald, sans-serif;
 }
 
-#mainNav, footer {
-  background-color: #303F9F;
-}
-
-#mainNav a {
+/*#mainNav a {
   color: #FFFFFF;
-}
+}*/
 
 #about {
-  background-color: #3F51B5;
+  /*background-color: #3F51B5;*/
   margin-top: 51px;
 }
 
@@ -53,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   padding: 1em 0;
+  background-color: #222;
 }
 
 footer p {

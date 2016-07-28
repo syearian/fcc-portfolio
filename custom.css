@@ -31,15 +31,24 @@ h1, h2, h3, h4, h5, h6 {
 
 #profile {
   max-width: 300px;
+  max-height: 300px;
   border-radius: 50%;
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 #portfolio {
   background-color: #FFFFFF;
 }
 
+div.flexWrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .project-img {
+  max-height: 350px;
+  max-width: 350px;
   margin: 0 auto 20px;
 }
 
@@ -55,3 +64,9 @@ footer {
 footer p {
   margin-bottom: 0;
 }
+
+@media only screen and (min-width: 760px) {
+  #titleSocial {
+    margin-top: 90px;
+  }
+} 
